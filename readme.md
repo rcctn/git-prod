@@ -10,7 +10,7 @@ Projeto para aprender e configurar o git e github.
 - Use comand 'git init' in terminal
     "initialized empty git repository"
     Files 'master/main as create in the folder '.git'
-        to change master to main cranch: Just past 'git branch -m main' in terminal
+        to change master to main branch: Just past 'git branch -m main' in terminal
 - Add fiel to stadin using (git add name fiel)
     Using 'git status' to see the files stadins
 - To commit use (git commit -m "primeiro commit")
@@ -31,3 +31,13 @@ Projeto para aprender e configurar o git e github.
     git remote add origin https://github.com/rcctn/git-prod.git
     git push -u origin main
 
+
+
+
+
+step by step cod
+
+$ git add readme.md         --To call
+$ git status                --To see
+$ git commit -m 'anotações' --To name
+$ git push -u origin main   --To send 
