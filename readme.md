@@ -28,9 +28,9 @@
 
   1)  ***To Call***
 
-          git add readme.md 
-          git add name-file 
-          git add .               
+          Ex: git add readme.md 
+              git add name-file 
+              git add .               
   - *Add files to **staging***
 ---
   2) **To See them** 
@@ -45,43 +45,43 @@
 ---
   4) **To Push**:
 
-          git push -u origin 'main' 
-          git push -u origin 'second-branch'  
-          git push -u origin 'branch-name'
+          Ex: git push -u origin 'main' 
+              git push -u origin 'second-branch'  
+              git push -u origin 'branch-name'
 - ***Sending** the commit and **creating** a **document version***
 
 ### Link's between git's
 
 1) Acess your github and create a new repository, paste the link in terminal linkin them:
 
-        git remote add origin https://github.com/rcctn/git-prod.git 
-        git remote add origin <link.git>
+        Ex: git remote add origin https://github.com/rcctn/git-prod.git 
+            git remote add origin <link.git>
 ---
 2) ***Clone your code*** to another workspace:
 
-        git clone https://github.com/rcctn/git-prod.git
-        git clone <link.git>
+        Ex: git clone https://github.com/rcctn/git-prod.git
+            git clone <link.git>
 
 3) Acess the ***main branch folder***: 
 
-        cd git-prod
-        cd 'folder-name'   
+        Ex: cd git-prod
+            cd 'folder-name'   
 ---         
 4) ***Switch betwenn*** branch's:
 
-          git checkout main
-          git checkout txt.ts
-          git checkout 'branch-name'
+          Ex: git checkout main
+              git checkout txt.ts
+              git checkout 'branch-name'
 ---
 5) Creating another ***Branch's***:
 
-          git checkout -b 'txt-st' 
-          git checkout -b 'branch-name'
+          Ex: git checkout -b 'txt-st' 
+              git checkout -b 'branch-name'
 ---
 6) To ***merge branch's***
 
-          git merge 'txt-st'
-          git merge 'branch-name'
+          Ex: git merge 'txt-st'
+              git merge 'branch-name'
           
  
 ### Font's
