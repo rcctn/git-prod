@@ -28,8 +28,7 @@
 
   1)  ***To Call***
 
-          Ex: git add readme.md 
-              git add name-file 
+          Ex: git add readme.md  
               git add .               
   - *Add files to **staging***
 ---
@@ -40,14 +39,14 @@
 ---
   3) **To Name**: 
       
-          git commit -m "commit-name"
+          git commit -m "first-commit"
   - *Create a **Commit*** 
 ---
   4) **To Push**:
 
           Ex: git push -u origin 'main' 
-              git push -u origin 'second-branch'  
-              git push -u origin 'branch-name'
+              git push -u origin 'another-branch'  
+              
 - ***Sending** the commit and **creating** a **document version***
 
 ### Link's between git's
