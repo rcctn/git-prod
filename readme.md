@@ -77,6 +77,12 @@
 
           git checkout -b 'txt-st' 
           git checkout -b 'branch-name'
+---
+6) To ***merge branch's***
+
+          git merge 'txt-st'
+          git merge 'branch-name'
+          
  
 ### Font's
 ---
@@ -103,7 +109,7 @@ Step by step
 
 - To name: 
  
-        git commit -m 'branch-name'               
+        git commit -m 'commit-name'               
 - To send: 
 
         git push -u origin 'branch-name'
