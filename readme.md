@@ -1,43 +1,84 @@
-Projeto para aprender e configurar o git e github.
+# Learn and config git/github.
 
+## Creation Files
 
-- Create a new folder and open in VSCode. 
-- Create a new file 'readme.md'(markdown file)
-- Leftclick on 'markdown file' and 'Open whit GIT BASH HERE'
-    "terminal git open"
+1) Create a new folder in your desktop, and opening VSCode to create a new **Markdown File**:
 
-    TERMINAL GIT
-- Use comand 'git init' in terminal
-    "initialized empty git repository"
-    Files 'master/main as create in the folder '.git'
-        to change master to main branch: Just past 'git branch -m main' in terminal
-- Add fiel to stadin using (git add name fiel)
-    Using 'git status' to see the files stadins
-- To commit use (git commit -m "primeiro commit")
+       Ex: readme.md
+---
+  1) Now just go to your new file, **Left-clicking** them, and **Open Whit**:
 
-- Create a new repository in our github and past in terminal using:
+    'GIT BASH HERE' 
+  - *to open file in Terminal git.*
 
-    git remote add origin <link.git>   
-    git push -u origin main
+## Git/GitHub
+### The Structure
+  1) Use this comand in terminal to "initialized empty git repository": 
 
+          git init 
 
-- Create a new repository in our github and cop + past to 'create a new repository on the command line'
+  - *This gone initialized a **'*master/main' branch*** in your git.*
+---  
+  2)  To change **'master'** to **'main'** **branch** just past in terminal: 
+      
+          git branch -m main
 
-    echo "# git-prod" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/rcctn/git-prod.git
-    git push -u origin main
+### Link's between git's
 
+1) Acess your github and create a new repository, paste the link in terminal linkin them:
 
+        Ex: git remote add origin https://github.com/rcctn/git-prod.git 
+        
+            git remote add origin <link.git>
+---            
+2) Creating another ***Branch's***
 
+            git 
 
+### Road to 'Push' 
 
-step by step cod
+  3)  ***To Call***
 
-$ git add readme.md         --To call
-$ git status                --To see
-$ git commit -m 'anotações' --To name
-$ git push -u origin main   --To send 
+          Ex: git add readme.md
+              git add name-file
+              git add .               
+  - *Add files to **staging***
+---
+  4) **To See them** 
+
+         Ex: git status 
+  - *List of **staging's***
+---
+  5) **To Name**: 
+      
+          Ex: git commit -m "commit name"
+  - *Create a **Commit*** 
+---
+  6) **To Push**:
+
+           Ex: git push -u origin 'main'
+               git push -u origin 'second-branch' 
+               git push -u origin 'branch name'
+- ***Sending** the commit and **creating** a **document version***
+   
+ 
+### Font's
+---
+#### GitHub
+- echo "# git-prod" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/rcctn/-git-prod.git
+- git push -u origin main
+- Create a new branch: git checkout -b 'branch-name'
+
+---
+
+myself - Step by step
+
+- git add readme.md                       --To call
+- git status                              --To see
+- git commit -m 'anotações'               --To name
+- git push -u origin 'main(branch name)'  --To send
