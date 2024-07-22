@@ -62,7 +62,7 @@
         git clone https://github.com/rcctn/git-prod.git
         git clone <link.git>
 
-3) Acess the ***main branch folder in another workspace***: 
+3) Acess the ***main branch folder***: 
 
         cd git-prod
         cd 'folder-name'   
@@ -94,7 +94,16 @@
 
 Step by step
 
-- To call: git add 'file-name'
-- To see:  git status                              
-- To name: git commit -m 'branch-name'               
-- To send: git push -u origin 'branch-name'
+- To call: 
+        
+        git add 'file-name'
+- To see:  
+  
+        git status 
+
+- To name: 
+ 
+        git commit -m 'branch-name'               
+- To send: 
+
+        git push -u origin 'branch-name'
