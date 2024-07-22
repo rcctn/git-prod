@@ -33,7 +33,8 @@
 ---            
 2) Creating another ***Branch's***
 
-            git 
+          Ex: git checkout -b 'txt-st' 
+              git checkout -b 'branch-name'
 
 ### Road to 'Push' 
 
@@ -51,14 +52,14 @@
 ---
   5) **To Name**: 
       
-          Ex: git commit -m "commit name"
+          Ex: git commit -m "commit-name"
   - *Create a **Commit*** 
 ---
   6) **To Push**:
 
            Ex: git push -u origin 'main'
                git push -u origin 'second-branch' 
-               git push -u origin 'branch name'
+               git push -u origin 'branch-name'
 - ***Sending** the commit and **creating** a **document version***
    
  
